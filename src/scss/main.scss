@@ -9,6 +9,10 @@ $text_color: #292929;
 $primary_font: Georgia, 'Times New Roman', Times, serif;
 $secondary_font: Arial, Helvetica, sans-serif;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body > * {
   font-family: $primary_font;
 }
@@ -426,8 +430,9 @@ button#next {
 
 footer {
   padding-top: 80px;
-  padding-bottom: 75px;
+  padding-bottom: 57px;
   background-image: url('../images/footer_bg.png');
+  background-repeat: no-repeat;
 
   a:hover {
     color: #fff;
